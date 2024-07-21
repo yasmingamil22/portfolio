@@ -9,28 +9,34 @@
   
       .projectsContent {
         display: block;
-        padding: 1rem 2rem;
+        padding: 1rem 0;
   
         .projectsRow {
-          display: grid;
+          /*display: grid;
           grid-template-columns: 1fr;
-          grid-gap: 2rem;
+          grid-gap: 2rem;*/
+          display: flex;
+          flex-direction: column;
+
           margin-bottom: 1rem;
   
           .projectsRowImgCont {
             overflow: hidden;
+          
           }
   
           .projectsRowContent {
             display: flex;
             padding: 1rem 0;
-            justify-content: center;
             flex-direction: column;
             align-items: center;
   
             .toolTitle {
               font-weight: bold;
               color: var(--navy);
+              margin-top: 30px;
+
+              
             }
   
             .btn {
@@ -49,9 +55,12 @@
         padding: 3rem 5rem;
   
         .projectsRow {
-          display: grid;
+        /*  display: grid;
           grid-template-columns: 1.5fr 1fr;
-          grid-gap: 4rem;
+          grid-gap: 4rem;*/
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
   
           .projectsRowContent {
             place-items: start;

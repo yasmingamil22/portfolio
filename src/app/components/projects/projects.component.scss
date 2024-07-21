@@ -74,7 +74,7 @@
         }
   
         .projectsRowContentTitle {
-          letter-spacing: 2px;
+          letter-spacing: 1px;
           font-weight: 600;
           font-size: 1.5rem;
           padding-bottom: 1rem;
@@ -87,7 +87,7 @@
           max-width: 60rem;
           line-height: 1.5;
           margin-bottom: 0.5rem;
-          text-align: center;
+          text-align: start;
         }
   
         .tools {
@@ -100,7 +100,7 @@
             font-size: x-small;
             text-align: center;
             padding: 0.3rem 0.5rem;
-            margin-bottom: 1.2rem;
+            margin-bottom: 1rem;
             margin-right: 1rem;
             background: var(--gray-light);
             border-radius: 5px;
@@ -115,12 +115,14 @@
         
   
         .livBtn {
-          width: 200px;
-          height: 60px;
+        //  width: 120px;
+        //  height: 60px;
+        padding: 25px 30px;
+        font-size: 14px;
           color: var(--white) ;
           text-transform: uppercase;
-          font-weight: 700;
-          letter-spacing: 2px;
+          font-weight: 500;
+          letter-spacing: 1px;
           margin: 0 20px;
           background-color: var(--navy);
           border: 2px solid var(--navy);
@@ -129,6 +131,7 @@
           a{
             color: var(--white) ;
             text-decoration: none;
+
             transition: var(--transition);
   
   

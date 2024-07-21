@@ -67,8 +67,8 @@ mat-drawer-content {
 
     .drawerInfo {
       ul {
-        margin-top: -25rem;
-        margin-left: 9rem;
+        margin-top: -18rem;
+        margin-left: 2rem;
       }
     }
   }
@@ -114,11 +114,24 @@ mat-drawer-content {
 
 @media (700px <= width <= 800px) {
   .circularDrawer {
-    clip-path: circle(750px at right 30px);
+    clip-path: circle(700px at right 30px);
 
     .drawerInfo {
       ul {
         margin-top: -12rem;
+        margin-left: 7rem;
+      }
+    }
+  }
+}
+
+@media (800px <= width <= 992px) {
+  .circularDrawer {
+    clip-path: circle(700px at right 30px);
+
+    .drawerInfo {
+      ul {
+        margin-top: -25rem;
         margin-left: 7rem;
       }
     }

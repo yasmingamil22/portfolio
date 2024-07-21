@@ -28,7 +28,7 @@
         .headingMain {
           display: block;
           font-size: 2rem;
-          font-weight: 700;
+          font-weight: 600;
           text-transform: uppercase;
           letter-spacing: 1px;
           letter-spacing: 3px;
@@ -69,7 +69,7 @@
       .contactFormContainer {
         box-shadow: var(--navy-shadow) 5px -8px 15px 17px;
         background: var(--navy);
-        padding: 3rem;
+        padding: 2rem 1.5rem;
         max-width: 80rem;
         text-align: left;
         width: 95%;
@@ -106,7 +106,7 @@
   
               .btn {
                 text-align: center;
-                width: 90%;
+                width: 50%;
   
                 button {
                   padding: 8px 14px;
