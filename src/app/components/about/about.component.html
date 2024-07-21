@@ -1,0 +1,213 @@
+<div class="container">
+    <div class="aboutContainer">
+      <h2>
+        <span
+          class="headingMain"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="ease forwards"
+          data-aos-offset="100"
+          data-aos-once="true"
+          >About Me</span
+        >
+        <span
+          class="headingSub"
+          data-aos="fade-up"
+          data-aos-delay="150"
+          data-aos-duration="1000"
+          data-aos-easing="ease forwards"
+          data-aos-offset="100"
+          data-aos-once="true"
+        >
+          Here you will find more information about me, what I do, and my current
+          skills mostly in terms of programming and technology.
+        </span>
+      </h2>
+      <div class="aboutContent">
+        <div class="aboutContentMain">
+          <h3
+            class="aboutContentTitle"
+            data-aos="fade-down-right"
+            data-aos-delay="160"
+            data-aos-duration="1000"
+            data-aos-easing="ease forwards"
+            data-aos-offset="100"
+            data-aos-once="true"
+          >
+            Get to know me!
+          </h3>
+          <div class="aboutContentDetails">
+            <p
+              class="aboutContentDetailsPara"
+              data-aos="fade-up-right"
+              data-aos-delay="180"
+              data-aos-duration="1000"
+              data-aos-easing="ease forwards"
+              data-aos-offset="100"
+              data-aos-once="true"
+            >
+              I'm a proficient <strong>Front-End Angular Developer</strong> with a strong background in computer engineering. I have hands-on experience in developing dynamic web applications using Angular, enhancing user experience and functionality. My passion for learning and sharing knowledge drives me to continuously improve and contribute to the developer community.
+            </p>
+     
+  
+            <p
+              class="aboutContentDetailsPara"
+              data-aos="fade-up-left"
+              data-aos-delay="180"
+              data-aos-duration="1000"
+              data-aos-easing="ease forwards"
+              data-aos-offset="100"
+              data-aos-once="true"
+            >
+              I'm open to <strong>job opportunities</strong> where I can contribute, learn, and grow. If you have a suitable opportunity that matches my skills and experience, don't hesitate to <strong>contact</strong> me.
+            </p>
+          </div>
+          <div
+            class="btn"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease forwards"
+            data-aos-offset="100"
+            data-aos-once="true"
+          >
+            <button mat-raised-button (click)="redirectToContct()">
+              Contact
+            </button>
+          </div>
+        </div>
+        <div class="aboutContentSkills">
+          <h3
+            class="aboutContentTitle"
+            data-aos="fade-down-left"
+            data-aos-delay="160"
+            data-aos-duration="1000"
+            data-aos-easing="ease forwards"
+            data-aos-offset="100"
+            data-aos-once="true"
+          >
+            My Skills
+          </h3>
+          <div
+            class="skills"
+            data-aos="fade-up-left"
+            data-aos-delay="180"
+            data-aos-duration="1000"
+            data-aos-easing="ease forwards"
+            data-aos-offset="100"
+            data-aos-once="true"
+          >
+            <div class="skillsIcon"      (mouseenter)="showTooltip($event, 'HTML')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/html.png"
+                alt="html"
+                id="html"
+              />
+            </div>
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'CSS')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/css.png"
+                id="css"
+              />
+            </div>
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'SCSS')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/scss.webp"
+                id="scss"
+              />
+            </div>
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'Bootstrap')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/bootstrap.png"
+                id="bootstrap"
+              />
+            </div>
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'JS')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/js.png"
+                id="js"
+              />
+            </div>
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'Type Script')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/TypeScript.png"
+                id="TypeScript"
+              />
+            </div>
+  
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'Jquery')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/jquery.webp"
+                id="TypeScript"
+              />
+            </div>
+  
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'Angular')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/angular.png"
+                id="angular"
+              />
+            </div>
+          
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'JAVA')"
+            (mouseleave)="hideTooltip()">
+              <img class="imgResponsive" src="../../../assets/skills/Java.jpg" />
+            </div>
+        
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'Node js')"
+            (mouseleave)="hideTooltip()">
+              <img class="imgResponsive" src="../../../assets/skills/node-js.png" />
+            </div>
+            
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'Github')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/github.png"
+                id="github"
+              />
+            </div>
+          
+            <div class="skillsIcon"  (mouseenter)="showTooltip($event, 'SQL')"
+            (mouseleave)="hideTooltip()">
+              <img
+                class="imgResponsive"
+                src="../../../assets/skills/sql.png"
+                id="SQL"
+              />
+            </div>
+            
+           
+          
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+    id="tooltip"
+    class="tooltip"
+    *ngIf="tooltipVisible"
+    [ngStyle]="tooltipStyle"
+  >
+    {{ tooltipText }}
+  </div>
+  </div>
+  

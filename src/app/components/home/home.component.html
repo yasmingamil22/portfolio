@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="homeContainer">
+      <div class="socialIcons" *ngIf="isMobile">
+  
+      
+        <div class="button linBtn">
+          <div class="icon" >
+            <a href="https://www.linkedin.com/in/yasmin-gamil-79527b254/" target="_blank">  <i class="bx bxl-linkedin"></i>    </a>
+          </div>
+          <span>Linkedin</span>
+        </div>
+      
+        <div class="button gitBtn">
+          <div class="icon">
+            <a href="https://github.com/yasmingamil22?tab=repositories" target="_blank"> 
+            <i class="bx bxl-github" ></i>
+          </a>
+          </div>
+          <span>Github</span>
+        </div>
+        <div class="button youBtn">
+          <div class="icon">
+            <a href="https://www.youtube.com/watch?v=8xahl_K6dns&list=PLAVkguADveCbQeFMlR38p7bVtPBXfhWZR" target="_blank"> 
+  
+            <i class="bx bxl-youtube" ></i>
+          </a>
+  
+            
+          </div>
+          <span>Youtube</span>
+        </div>
+      </div>
+      <div class="homeContent">
+        <h1
+          class="name"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-easing="ease forwards"
+          data-aos-offset="100"
+          data-aos-once="true"
+        >
+          Hey, I'm Yasmin Gamil
+        </h1>
+        <div class="info">
+          <p>
+            I am a proficient Front-End Angular Developer with a background in computer engineering. I specialize in creating dynamic web applications using Angular.
+  
+          </p>
+        </div>
+        <div class="btn">
+          <button (click)="redirectToProject()"><span></span> Projects</button>
+        </div>
+      </div>
+      <div class="email" *ngIf="isMobile">
+        <a href="mailto:yasmingamy@gmail.com">yasmingamy@gmail.com</a>
+      </div>
+      <div class="scrollDown" (click)="redirectToAbout()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  
